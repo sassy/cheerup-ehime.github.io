@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "Cheer UP! Ehime"
 description              : "愛媛県に関する平成30年7月豪雨ふ復興支援情報を集約・整理・提供することで復興に貢献するためのサイトです。"
 url                      : "https://sassy.github.io/" #
-baseurl                  : "cheerup-ehime.github.io//" # the subpath of your site, e.g. "/blog"
+baseurl                  : "cheerup-ehime.github.io/" # the subpath of your site, e.g. "/blog"
 repository               : #
 teaser                   : "/assets/images/cheerUP!_カバー写真.png"
 breadcrumbs            : false # true, false (default)
@@ -223,10 +223,10 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
 
 # https://github.com/jekyll/jekyll-archives
