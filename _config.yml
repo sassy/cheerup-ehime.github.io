@@ -11,7 +11,7 @@ title                    : "チアアップえひめ<br/>平成30年7月豪雨�
 title_separator          : "-"
 name                     : "Cheer UP! Ehime"
 description              : "愛媛県に関する平成30年7月豪雨ふ復興支援情報を集約・整理・提供することで復興に貢献するためのサイトです。"
-url                      : "https://sassy.github.io/" #
+url                      : "https://sassy.github.io" #
 baseurl                  : "cheerup-ehime.github.io/" # the subpath of your site, e.g. "/blog"
 repository               : #
 teaser                   : "/assets/images/cheerUP!_カバー写真.png"
@@ -230,16 +230,16 @@ tag_archive:
   path: /tags/
 
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled: 
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled: 
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
