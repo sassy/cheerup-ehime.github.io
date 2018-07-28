@@ -11,8 +11,8 @@ title                    : "チアアップえひめ<br/>平成30年7月豪雨�
 title_separator          : "-"
 name                     : "Cheer UP! Ehime"
 description              : "愛媛県に関する平成30年7月豪雨ふ復興支援情報を集約・整理・提供することで復興に貢献するためのサイトです。"
-url                      : "https://cheerup-ehime.github.io" #
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://sassy.github.io/" #
+baseurl                  : "cheerup-ehime.github.io//" # the subpath of your site, e.g. "/blog"
 repository               : #
 teaser                   : "/assets/images/cheerUP!_カバー写真.png"
 breadcrumbs            : false # true, false (default)
